@@ -3,6 +3,12 @@
   margin: 0;
   padding: 0;
 }
+
+html, body, #root {
+  height: 100%;
+  background: #0a0e1a;
+}
+
 body {
   font-family: 'Inter', sans-serif;
 }
