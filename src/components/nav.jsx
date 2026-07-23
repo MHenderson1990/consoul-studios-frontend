@@ -5,7 +5,7 @@ function Nav() {
   return (
     <nav className="nav">
       <Link to="/" className="nav-logo">
-        Consoul<span className="nav-logo-accent">Studios</span>
+        <img src="/logo.png" alt="Consoul Studios" className="nav-logo-img" />
       </Link>
       <div className="nav-links">
         <Link to="/work">Work</Link>
