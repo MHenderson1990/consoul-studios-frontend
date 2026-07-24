@@ -6,21 +6,20 @@ let services = [
     name: 'Web',
     tagline: 'sites built to convert',
     desc: 'Fast, modern websites and web apps — from a small business homepage to a full custom web application, built clean and built to last.',
-    stack: ['React', 'Vite', 'Node', 'Express', 'MongoDB'],
   },
   {
     name: 'Mobile',
     tagline: 'one codebase, every platform',
     desc: 'Cross-platform mobile apps for iOS and Android from a single codebase — built efficiently without sacrificing a native feel.',
-    stack: ['React', 'Capacitor'],
   },
   {
     name: 'Ongoing',
     tagline: 'support that doesn\u2019t stop at launch',
     desc: 'Monthly support and iteration after launch — bug fixes, updates, and new features as your business grows and your needs change.',
-    stack: ['Maintenance', 'Retainer'],
   },
 ];
+
+let tools = ['React', 'Vite', 'Node', 'Express', 'MongoDB', 'Capacitor'];
 
 function Services() {
   return (
@@ -32,7 +31,7 @@ function Services() {
         <h1>
           Built with <span className="accent">soul.</span>
         </h1>
-        <p>Three ways to work together — pick what fits, or simply start with a conversation.</p>
+        <p>Three ways to work together — pick what fits, or start with a conversation.</p>
       </section>
 
       <section className="services-grid">
@@ -41,13 +40,17 @@ function Services() {
             <h3>{service.name}</h3>
             <div className="tagline">{service.tagline}</div>
             <p className="desc">{service.desc}</p>
-            <div className="stack">
-              {service.stack.map((tech) => (
-                <span key={tech}>{tech}</span>
-              ))}
-            </div>
           </div>
         ))}
+      </section>
+
+      <section className="tools">
+        <div className="tools-label">Built with</div>
+        <div className="tools-list">
+          {tools.map((tool) => (
+            <span key={tool}>{tool}</span>
+          ))}
+        </div>
       </section>
 
       <section className="cta">
