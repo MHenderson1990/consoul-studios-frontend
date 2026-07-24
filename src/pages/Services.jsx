@@ -12,7 +12,7 @@ let services = [
     name: 'Mobile',
     tagline: 'one codebase, every platform',
     desc: 'Cross-platform mobile apps for iOS and Android from a single codebase — built efficiently without sacrificing a native feel.',
-    stack: ['React', 'Capacitor', 'Node', 'Express', 'MongoDB'],
+    stack: ['React', 'Capacitor'],
   },
   {
     name: 'Ongoing',
