@@ -31,7 +31,7 @@ function Services() {
         <h1>
           Built with <span className="accent">soul.</span>
         </h1>
-        <p>Three ways to work together — pick what fits, or start with a conversation.</p>
+        <p>Three ways to work together — pick what fits, or simply start with a conversation.</p>
       </section>
 
       <section className="services-grid">
