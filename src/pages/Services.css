@@ -56,6 +56,8 @@
   padding: 36px;
   background: linear-gradient(160deg, rgba(99, 102, 241, 0.06), rgba(192, 38, 211, 0.02));
   transition: border-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
 }
 .service-card:hover {
   border-color: rgba(139, 92, 246, 0.4);
@@ -85,7 +87,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  margin-top: auto;
 }
+
 .stack span {
   font-size: 12px;
   font-weight: 600;

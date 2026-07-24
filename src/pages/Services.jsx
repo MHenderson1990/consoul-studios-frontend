@@ -6,13 +6,13 @@ let services = [
     name: 'Web',
     tagline: 'sites built to convert',
     desc: 'Fast, modern websites and web apps — from a small business homepage to a full custom web application, built clean and built to last.',
-    stack: ['React', 'Vite', 'Node'],
+    stack: ['React', 'Vite', 'Node', 'Express', 'MongoDB'],
   },
   {
     name: 'Mobile',
     tagline: 'one codebase, every platform',
     desc: 'Cross-platform mobile apps for iOS and Android from a single codebase — built efficiently without sacrificing a native feel.',
-    stack: ['React', 'Capacitor'],
+    stack: ['React', 'Capacitor', 'Node', 'Express', 'MongoDB'],
   },
   {
     name: 'Ongoing',
@@ -32,7 +32,7 @@ function Services() {
         <h1>
           Built with <span className="accent">soul.</span>
         </h1>
-        <p>Three ways to work together — pick what fits, or start with a conversation.</p>
+        <p>Three ways to work together — pick what fits, or simply start with a conversation.</p>
       </section>
 
       <section className="services-grid">
