@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import Nav from '../components/nav';
 import './Home.css';
+import Testimonials from '../components/Testimonials';
 
 function Home() {
   let waveformRef = useRef(null);
@@ -52,5 +53,7 @@ function Home() {
     </div>
   );
 }
+
+<Testimonials />
 
 export default Home;

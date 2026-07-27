@@ -1,0 +1,47 @@
+.testimonials {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 56px 100px;
+}
+.testimonials .eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #a78bfa;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.review-card {
+  border: 1px dashed rgba(255, 255, 255, 0.15);
+  border-radius: 18px;
+  padding: 28px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.quote {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: #cbd5e1;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.reviewer-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #e4e6f0;
+}
+.reviewer-role {
+  font-size: 12.5px;
+  color: #7d82a0;
+  margin-top: 2px;
+}

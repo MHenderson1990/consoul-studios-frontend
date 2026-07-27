@@ -1,6 +1,7 @@
 import Nav from '../components/nav';
 import './Work.css';
 
+
 let projects = [
   {
     name: 'Jointly',
