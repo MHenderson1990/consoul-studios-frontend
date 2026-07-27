@@ -50,10 +50,12 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <Testimonials />
     </div>
   );
 }
 
-<Testimonials />
+
 
 export default Home;
