@@ -3,6 +3,7 @@ import Nav from '../components/nav';
 import Testimonials from '../components/Testimonials';
 import './Home.css';
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 function Home() {
   let waveformRef = useRef(null);
@@ -53,6 +54,7 @@ function Home() {
       </section>
 
       <Testimonials />
+      <Footer />
     </div>
   );
 }
