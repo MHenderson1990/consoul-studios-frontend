@@ -83,7 +83,7 @@ function Home() {
               </svg>
             </div>
             <h3>Mobile Apps</h3>
-            <p>Native-feeling iOS apps taken from concept to the App Store — clean, responsive, and built to ship.</p>
+            <p>Native-feeling mobile apps taken from concept to the App Store and Google Play — clean, responsive, and built to ship.</p>
           </div>
 
           <div className="service-card">
@@ -99,6 +99,8 @@ function Home() {
         </div>
       </section>
 
+    <Testimonials />
+
       {/* --- CTA band: after <Testimonials /> --- */}
       <section className="cta-band">
         <h2>
@@ -111,7 +113,7 @@ function Home() {
           <a href="mailto:info@consoulstudios.com" className="cta-email">info@consoulstudios.com</a>
         </div>
       </section>
-      <Testimonials />
+      
       <Footer />
     </div>
   );
