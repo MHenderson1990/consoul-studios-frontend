@@ -27,11 +27,11 @@ function Home() {
 
       <section className="hero">
         <div className="waveform" ref={waveformRef}></div>
-        <div className="eyebrow">Web &amp; mobile development</div>
+        <div className="eyebrow">Web apps & software platforms</div>
         <h1>
           Software with <span className="hero-accent">soul.</span>
         </h1>
-        <p>Web and mobile apps for small businesses, startups, and creatives — built with real craft and care.</p>
+        <p>Custom web apps and software platforms for small businesses, startups, and creatives — built with real craft and care.</p>
         <div className="hero-actions">
           <Link to="/work" className="btn-primary">See the work →</Link>
           <Link to="/contact" className="btn-secondary">Start a project</Link>
@@ -52,6 +52,7 @@ function Home() {
           </div>
         </div>
       </section>
+
     {/* --- services grid: after hero </section> --- */}
       <section className="services-preview">
         <div className="section-eyebrow">What I build</div>
@@ -59,31 +60,33 @@ function Home() {
           From idea to <span className="hero-accent">launch.</span>
         </h2>
         <p className="section-sub">
-          Custom web and mobile apps — designed, built, and shipped with real
-          craft. No templates, no filler.
+        Custom web and mobile apps, plus full cross-platform software platforms —
+        designed, built, and shipped with real craft. No templates, no filler.
         </p>
 
         <div className="service-cards">
           <div className="service-card">
             <div className="service-icon">
               <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2">
-                <rect x="2" y="3" width="20" height="14" rx="2" />
-                <path d="M8 21h8M12 17v4" />
+                <rect x="2" y="3" width="14" height="11" rx="1.5" />
+                <path d="M2 17h14" />
+                <rect x="17" y="9" width="5" height="12" rx="1.5" />
               </svg>
             </div>
-            <h3>Web Apps</h3>
-            <p>Fast, custom sites and web apps — React front ends with real backends behind them, built to fit your brand.</p>
+            <h3>Web &amp; Mobile Apps</h3>
+            <p>From responsive web apps to native-feeling mobile apps on the App Store and Google Play — polished front ends with real backends, built to fit your brand.</p>
           </div>
 
           <div className="service-card">
             <div className="service-icon">
               <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2">
-                <rect x="6" y="2" width="12" height="20" rx="2" />
-                <path d="M11 18h2" />
+                <path d="M12 2l9 5-9 5-9-5 9-5z" />
+                <path d="M3 12l9 5 9-5" />
+                <path d="M3 17l9 5 9-5" />
               </svg>
             </div>
-            <h3>Mobile Apps</h3>
-            <p>Native-feeling mobile apps taken from concept to the App Store and Google Play — clean, responsive, and built to ship.</p>
+            <h3>Cross-Platform Software</h3>
+            <p>Full software platforms that run across phone, tablet, and computer from a single codebase — built to scale and maintained over time, not just shipped and forgotten.</p>
           </div>
 
           <div className="service-card">

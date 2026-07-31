@@ -10,9 +10,9 @@ function Footer() {
             Consoul <span className="footer-accent">Studios</span>
           </div>
           <p className="footer-tagline">
-            Web and mobile apps built with real craft, care and soul — for
+            Web apps and software platforms built with real craft, care and soul — for
             small businesses, startups, and creatives.
-          </p>
+        </p>
 
           <a href="mailto:info@consoulstudios.com" className="footer-item">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2">

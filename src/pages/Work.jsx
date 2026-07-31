@@ -4,14 +4,14 @@ import './Work.css';
 
 let projects = [
   {
-    name: 'Jointly',
-    tagline: 'the flagship',
-    status: 'live',
-    statusLabel: 'Live',
-    desc: 'A budgeting app built for couples — a shared, transparent view of household finances, grown out of software battle-tested in a real home. Heading to the App Store.',
-    stack: ['React', 'Capacitor', 'Node', 'MongoDB'],
-    image: 'Jointly screenshot',
-  },
+  name: 'Club Verify',
+  tagline: 'the flagship',
+  status: 'development',
+  statusLabel: 'In Development',
+  desc: 'A private verification network for nightlife venues. Built to help partnered clubs share safety information and keep bad actors out, together.',
+  stack: ['React', 'Node', 'MongoDB'],
+  image: 'Club Verify screenshot',
+},
   {
     name: 'Posse HQ',
     tagline: 'group event planning',
