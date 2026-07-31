@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import Nav from '../components/nav';
 import Testimonials from '../components/Testimonials';
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 function Home() {
   let waveformRef = useRef(null);
@@ -31,8 +32,8 @@ function Home() {
         </h1>
         <p>Web and mobile apps for small businesses, startups, and creatives — built with real craft and care.</p>
         <div className="hero-actions">
-          <button className="btn-primary">See the work →</button>
-          <button className="btn-secondary">Start a project</button>
+          <Link to="/work" className="btn-primary">See the work →</Link>
+          <Link to="/contact" className="btn-secondary">Start a project</Link>
         </div>
 
         <div className="stats">
