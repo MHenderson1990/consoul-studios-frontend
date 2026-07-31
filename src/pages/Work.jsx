@@ -22,8 +22,8 @@ let projects = [
     image: 'Posse HQ screenshot',
   },
   {
-    name: 'Motivation App',
-    tagline: "for Kelli's business",
+    name: 'Love G.E.M.S',
+    tagline: "Coco's House of Love",
     status: 'planning',
     statusLabel: 'In progress',
     desc: 'A custom motivational app built around a client\u2019s business, designed to keep her audience engaged and supported between sessions.',
@@ -31,7 +31,7 @@ let projects = [
     image: 'Motivation App mockup',
   },
   {
-    name: "Kelli's Website",
+    name: "Coco's House of Love",
     tagline: 'business site',
     status: 'planning',
     statusLabel: 'In progress',
