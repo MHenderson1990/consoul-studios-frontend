@@ -8,6 +8,7 @@ function Nav() {
         <img src="/logo.png" alt="Consoul Studios" className="nav-logo-img" />
       </Link>
       <div className="nav-links">
+        <Link to="/">Home</Link>
         <Link to="/work">Work</Link>
         <Link to="/services">Services</Link>
         <Link to="/about">About</Link>
