@@ -28,7 +28,7 @@ let projects = [
     statusLabel: 'In progress',
     desc: 'A custom motivational app built around a client\u2019s business, designed to keep her audience engaged and supported between sessions.',
     stack: ['React', 'Mobile'],
-    image: '/public/love-gems.PNG',
+    image: './public/love-gems.PNG',
   },
   {
     name: "Coco's House of Love",
