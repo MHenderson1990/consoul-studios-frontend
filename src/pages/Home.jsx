@@ -55,7 +55,7 @@ function Home() {
 
     {/* --- services grid: after hero </section> --- */}
       <section className="services-preview">
-        <div className="section-eyebrow">What I build</div>
+        <div className="section-eyebrow">What We build</div>
         <h2 className="section-title">
           From idea to <span className="hero-accent">launch.</span>
         </h2>
@@ -110,7 +110,7 @@ function Home() {
           Got a project in mind?<br />
           Let's build something with <span className="hero-accent">soul.</span>
         </h2>
-        <p>Tell me what you're working on and I'll get back to you — no pressure, no sales pitch.</p>
+        <p>Tell us what you're working on and we'll get back to you — no pressure, no sales pitch.</p>
         <div className="cta-actions">
           <Link to="/contact" className="btn-primary">Start a project →</Link>
           <a href="mailto:info@consoulstudios.com" className="cta-email">info@consoulstudios.com</a>
