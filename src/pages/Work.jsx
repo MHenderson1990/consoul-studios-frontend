@@ -6,7 +6,7 @@ let projects = [
   {
   name: 'Club Verify',
   tagline: 'the flagship',
-  status: 'development',
+  status: 'progress',
   statusLabel: 'In Development',
   desc: 'A private verification network for nightlife venues. Built to help partnered clubs share safety information and keep bad actors out, together.',
   stack: ['React', 'Node', 'MongoDB'],
@@ -27,8 +27,8 @@ let projects = [
   {
     name: 'Love G.E.M.S',
     tagline: "Coco's House of Love",
-    status: 'planning',
-    statusLabel: 'In progress',
+    status: 'progress',
+    statusLabel: 'In development',
     desc: 'A custom motivational app built around a client\u2019s business, designed to keep her audience engaged and supported between sessions.',
     stack: ['React', 'Mobile'],
     image: '/love-gems.PNG',
