@@ -1,6 +1,7 @@
 import Nav from '../components/nav';
 import { Link } from 'react-router-dom';
 import './Services.css';
+import Footer from '../components/Footer';
 
 let services = [
   {
@@ -20,7 +21,7 @@ let services = [
   },
 ];
 
-let tools = ['React', 'Vite', 'Node', 'Express', 'MongoDB', 'Capacitor'];
+let tools = ['Javascript','React', 'Vite', 'Node', 'Express', 'MongoDB', 'Capacitor',];
 
 function Services() {
   return (
@@ -30,9 +31,17 @@ function Services() {
       <section className="page-head">
         <div className="eyebrow">What we do</div>
         <h1>
-          Built with <span className="accent">soul.</span>
+          Built for you, built with <span className="accent">soul.</span>
         </h1>
-        <p>Three ways to work together — pick what fits, or simply start with a conversation.</p>
+        <p><p>
+          Great custom software usually means one of two things: a big agency
+          price tag, or a template that never quite fits. Consoul Studios is the
+          third option — web apps, mobile apps, and full software platforms built
+          with real craft for small businesses, startups, and creatives who
+          deserve better than either. Every line is written by one full-stack
+          JavaScript developer who sweats the details, so you get agency-level
+          work at a rate that actually makes sense for where you are.
+        </p></p>
       </section>
 
       <section className="services-grid">
@@ -59,6 +68,7 @@ function Services() {
         <p>Every project starts with a conversation, not a quote.</p>
         <Link to="/contact" className="btn-primary">Start a project →</Link>
       </section>
+      <Footer />
     </div>
   );
 }

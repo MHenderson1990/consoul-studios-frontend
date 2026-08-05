@@ -55,13 +55,17 @@ function Home() {
 
     {/* --- services grid: after hero </section> --- */}
       <section className="services-preview">
-        <div className="section-eyebrow">What We build</div>
+        <div className="section-eyebrow">What We Do</div>
         <h2 className="section-title">
           From idea to <span className="hero-accent">launch.</span>
         </h2>
         <p className="section-sub">
-        Custom web and mobile apps, plus full cross-platform software platforms —
-        designed, built, and shipped with real craft. No templates, no filler.
+          Consoul Studios builds custom websites, mobile apps, and cross-platform
+          software platforms for small businesses, startups, and creatives — the
+          people underserved by cookie-cutter templates and priced out by big
+          agencies. With full-stack JavaScript development, Consoul Studios designs 
+          and builds each project front to back, so you get software that actually fits your
+          business and someone who sticks around to grow it with you.
         </p>
 
         <div className="service-cards">
