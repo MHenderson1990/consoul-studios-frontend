@@ -1,5 +1,7 @@
 import Nav from '../components/nav';
 import './About.css';
+import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -7,7 +9,7 @@ function About() {
       <Nav />
 
       <section className="page-head">
-        <div className="eyebrow">About</div>
+        <div className="eyebrow">Meet Mo Henderson</div>
         <h1>
           The story behind the <span className="accent">soul.</span>
         </h1>
@@ -15,28 +17,41 @@ function About() {
 
       <section className="about-content">
         <div className="about-photo-slot">
-          <span>Photo</span>
+          <img src="/mo.jpg" alt="Mo Henderson" className="about-photo-img" />
         </div>
 
         <div className="about-text">
           <p>
-            I've spent over a decade behind the mixing board and the camera — as an audio engineer, music producer, and video editor — before I ever wrote a line of production code. That background shapes how I build software: on deadline, through revisions, focused on shipping something that actually feels right to the people using it, not just something that technically works.
+            Hi, I'm Mo - the founder, designer, and developer behind Consoul Studios.
+            Before I wrote code, I spent years as a creative professional — a
+            music producer, audio engineer, and video editor who sweated every detail. 
+            That's where the name comes from: <em> console</em> + <em>soul</em>.
           </p>
           <p>
-            The name says the rest. Consoul is a console — the mixing board, the developer's terminal — with soul built in. That's the standard I hold every build to.
+            I got into software development to build the tools I wished existed, and found that
+            the instincts behind a good record are the same ones behind good
+            software — knowing when something's off, and caring enough to fix it.
           </p>
           <p>
-            Right now, Consoul Studios is entirely focused on software: web and mobile apps for small businesses, startups, and fellow creatives. My production background is where this all started, and it'll find its way into the studio eventually — but for now, this is where the focus is.
+            Today I build full-stack JavaScript applications end to end: React on
+            the front, Node and Express on the back, MongoDB for data, and
+            Capacitor to reach mobile. Every product in my portfolio was designed
+            and coded by me, start to finish.
           </p>
-          <p className="closing">
-            If you're building something and want it to feel considered, not just functional, let's talk.
+          <p>
+            Consoul Studios is for the people I know best: small businesses,
+            startups, and creatives who need real software but don't have agency
+            budgets. I bring agency-level craft and a creative's eye to every
+            project I take on. If you're building something and want it to feel considered, 
+            not just functional, let's talk.
           </p>
         </div>
       </section>
 
       <section className="cta">
-        <button className="btn-primary">Get in touch →</button>
+        <Link to="/contact" className="btn-primary">Get in touch →</Link>
       </section>
+      <Footer />
     </div>
   );
 }
