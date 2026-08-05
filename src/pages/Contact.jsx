@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Nav from "../components/nav";
+import Footer from '../components/Footer';
 
 let Contact = () => {
   let [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -129,6 +130,7 @@ let Contact = () => {
           )}
         </form>
       </section>
+      <Footer />
     </>
   );
 };
