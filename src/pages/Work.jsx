@@ -15,7 +15,7 @@ let projects = [
 
 {
     name: "The Sanctuary",
-    tagline: 'business site',
+    tagline: 'Business site',
     status: 'live',
     statusLabel: 'Live',
     desc: "A clean, client-facing website built to represent a client's business online and give her a professional home base.",
@@ -26,7 +26,7 @@ let projects = [
   
   {
     name: 'Love G.E.M.S',
-    tagline: "Coco's House of Love",
+    tagline: "Daily motivational app",
     status: 'progress',
     statusLabel: 'In development',
     desc: 'A custom motivational app built around a client\u2019s business, designed to keep her audience engaged and supported between sessions.',
@@ -36,7 +36,7 @@ let projects = [
 
   {
     name: 'Posse HQ',
-    tagline: 'group event planning',
+    tagline: 'Group event planning',
     status: 'progress',
     statusLabel: 'In development',
     desc: 'A calendar-first planner for friend groups — RSVPs, group chat, and color-coded event categories, built to replace the group-text chaos of planning anything together.',
