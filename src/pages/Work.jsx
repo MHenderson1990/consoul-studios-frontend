@@ -14,13 +14,13 @@ let projects = [
 },
 
 {
-    name: "Coco's House of Love",
+    name: "The Sanctuary",
     tagline: 'business site',
     status: 'live',
     statusLabel: 'Live',
     desc: "A clean, client-facing website built to represent a client's business online and give her a professional home base.",
     stack: ['React', 'Vite'],
-    image: '/cocolove.png',
+    image: '/cocolove.jpg',
   },
 
   
