@@ -2,7 +2,7 @@ import './Testimonials.css';
 
 let reviews = [
   {
-    quote: 'Working with Mo at Consoul Studios to build my website, The Sanctuary, has been an absolute dream. From start to finish, he brought incredible speed, clear communication, and non-stop updates to ensure every single detail and desire was fully realized beyond my expectations. You can truly tell he is deeply passioante about the work and literally puts his soul into everything he creates.',
+    quote: 'Working with Mo at Consoul Studios to build my website, The Sanctuary, has been an absolute dream. From start to finish, he brought incredible speed, clear communication, and non-stop updates to ensure every single detail and desire was fully realized beyond my expectations. You can truly tell he is deeply passionate about the work and literally puts his soul into everything he creates.',
     name: 'Kelli Colbert / Founder',
     role: 'The Sanctuary',
   },
