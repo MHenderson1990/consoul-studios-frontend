@@ -3,18 +3,20 @@ import './Testimonials.css';
 let reviews = [
   {
     quote: 'Working with Mo at Consoul Studios to build my website, The Sanctuary, has been an absolute dream. From start to finish, he brought incredible speed, clear communication, and non-stop updates to ensure every single detail and desire was fully realized beyond my expectations. You can truly tell he is deeply passioante about the work and literally puts his soul into everything he creates.',
-    name: 'The Sanctuary',
-    role: 'Business Website',
+    name: 'Kelli Colbert / Founder',
+    role: 'The Sanctuary',
   },
+  
   {
-    quote: 'Placeholder quote — swap in a real testimonial once collected.',
-    name: 'Client name',
-    role: 'Project / relationship',
+    quote: "Teaming up with Mo and Consoul Studios has been a great experience. He took my initial idea and transformed it into functional software while keeping me involved throughout the development process. Mo is creative, dependable, and genuinely committed to understanding the needs of the business. I've been impressed by his ability to solve problems and turn a vision into a professional product.",
+    name: 'Will Patterson / Founder',
+    role: 'Club Verify',
   },
+
   {
-    quote: 'Placeholder quote — swap in a real testimonial once collected.',
-    name: 'Client name',
-    role: 'Project / relationship',
+    quote: 'Working with Consoul Studios to build Love G.E.M.S. has been a dream come true, turning my passion for encouraging mental wellness and self-care into an app that can motivate society on a grand scale. Mo produced exactly what I asked for, bringing an unmatched level of passion and dedication to every detail of the process. I give Consoul Studios 10 out of 10 and highly recommend them to any founder looking to bring their vision to life!',
+    name: 'Coco Love / Founder',
+    role: 'Love G.E.M.S.',
   },
 ];
 
