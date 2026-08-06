@@ -14,7 +14,7 @@ let reviews = [
   },
 
   {
-    quote: 'Working with Consoul Studios to build Love G.E.M.S. has been a dream come true, turning my passion for encouraging mental wellness and self-care into an app that can motivate society on a grand scale. Mo produced exactly what I asked for, bringing an unmatched level of passion and dedication to every detail of the process. I give Consoul Studios 10 out of 10 and highly recommend them to any founder looking to bring their vision to life!',
+    quote: 'Consoul Studios has helped make my dream come true, turning my passion for encouraging mental wellness and self-care into an app that can motivate society on a grand scale. Mo produced exactly what I asked for, bringing an unmatched level of passion and dedication to every detail of the process. I give Consoul Studios 10 out of 10 and highly recommend them to any founder looking to bring their vision to life!',
     name: 'Coco Love / Founder',
     role: 'Love G.E.M.S.',
   },
