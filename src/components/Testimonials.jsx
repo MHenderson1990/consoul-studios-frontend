@@ -9,7 +9,7 @@ let reviews = [
   
   {
     quote: "Teaming up with Mo and Consoul Studios has been a great experience. He took my initial idea and transformed it into functional software while keeping me involved throughout the development process. Mo is creative, dependable, and genuinely committed to understanding the needs of the business. I've been impressed by his ability to solve problems and turn a vision into a professional product.",
-    name: 'Will Patterson / Founder',
+    name: 'Will Patterson / Founder & CEO',
     role: 'Club Verify',
   },
 
