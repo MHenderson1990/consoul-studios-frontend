@@ -29,7 +29,7 @@ let projects = [
     tagline: "Daily motivational app",
     status: 'progress',
     statusLabel: 'In development',
-    desc: 'A custom motivational app built around a client\u2019s business, designed to keep her audience engaged and supported between sessions.',
+    desc: 'A custom daily motivational and journaling app built around a client\u2019s business, designed to keep her audience engaged and supported between sessions.',
     stack: ['React', 'Mobile'],
     image: '/love-gems.PNG',
   },
