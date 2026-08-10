@@ -60,8 +60,8 @@ function Home() {
           From idea to <span className="hero-accent">launch.</span>
         </h2>
         <p className="section-sub">
-          Consoul Studios builds custom websites, mobile apps, and cross-platform
-          software platforms for small businesses, startups, and creatives — the
+          Consoul Studios builds custom websites, mobile apps, and SaaS
+          platforms for small businesses, startups, and creatives — the
           people underserved by cookie-cutter templates and priced out by big
           agencies. With full-stack JavaScript development, Consoul Studios designs 
           and builds each project front to back, so you get software that actually fits your
@@ -89,8 +89,8 @@ function Home() {
                 <path d="M3 17l9 5 9-5" />
               </svg>
             </div>
-            <h3>Cross-Platform Software</h3>
-            <p>Full software platforms that run across phone, tablet, and computer from a single codebase — built to scale and maintained over time, not just shipped and forgotten.</p>
+            <h3>SaaS &amp; Software Platforms</h3>
+            <p>Subscription-based SaaS products and full software platforms that run across phone, tablet, and computer from a single codebase — built to scale and maintained over time, not just shipped and forgotten.</p>
           </div>
 
           <div className="service-card">

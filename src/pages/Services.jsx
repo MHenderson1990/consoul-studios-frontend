@@ -10,10 +10,10 @@ let services = [
     desc: 'Fast, modern websites and web apps, plus native-feeling mobile apps for iOS and Android — from a small business homepage to a full custom application, built clean and built to last.',
   },
   {
-    name: 'Cross-Platform Software',
-    tagline: 'one codebase, every device',
-    desc: 'Full software platforms that run across phone, tablet, and computer from a single codebase — built to scale, with the maintenance and updates to keep them running long-term.',
-  },
+  name: 'SaaS & Software Platforms',
+  tagline: 'built to scale and subscribe',
+  desc: 'Subscription-based SaaS products and full software platforms that run across phone, tablet, and computer from a single codebase — built to scale, with the maintenance and updates to keep them running long-term.',
+},
   {
     name: 'Ongoing Support',
     tagline: 'support that doesn\u2019t stop at launch',

@@ -8,7 +8,7 @@ let projects = [
   tagline: 'the flagship',
   status: 'progress',
   statusLabel: 'MVP Development',
-  desc: 'A custom safety and verification platform built for the nightlife industry. Designed to help venues streamline guest verification, manage internal safety information, and give staff the tools they need to make faster, more informed decisions.',
+  desc: 'A custom safety and verification SaaS platform built for the nightlife industry. Designed to help venues streamline guest verification, manage internal safety information, and give staff the tools they need to make faster, more informed decisions.',
   stack: ['React', 'Node', 'MongoDB'],
   image: '/club-verify.png',
 },
