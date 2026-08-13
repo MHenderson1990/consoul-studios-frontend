@@ -4,14 +4,14 @@ import './Work.css';
 
 let projects = [
   {
-  name: 'Club Verify',
-  tagline: 'the flagship',
-  status: 'progress',
-  statusLabel: 'MVP Development',
-  desc: 'A custom safety and verification SaaS platform built for the nightlife industry. Designed to help venues streamline guest verification, manage internal safety information, and give staff the tools they need to make faster, more informed decisions.',
-  stack: ['React', 'Node', 'MongoDB'],
-  image: '/club-verify.png',
-},
+    name: 'Love G.E.M.S',
+    tagline: "flagship",
+    status: 'progress',
+    statusLabel: 'Internal Testing',
+    desc: 'A custom daily motivational and journaling app built around a client\u2019s business, designed to keep her audience engaged and supported between sessions.',
+    stack: ['React', 'Mobile'],
+    image: '/love-gems.PNG',
+  },
 
 {
     name: "The Sanctuary",
@@ -23,16 +23,6 @@ let projects = [
     image: '/cocolove.jpg',
   },
 
-  
-  {
-    name: 'Love G.E.M.S',
-    tagline: "Daily motivational app",
-    status: 'progress',
-    statusLabel: 'Internal Testing',
-    desc: 'A custom daily motivational and journaling app built around a client\u2019s business, designed to keep her audience engaged and supported between sessions.',
-    stack: ['React', 'Mobile'],
-    image: '/love-gems.PNG',
-  },
 
   {
     name: 'Posse HQ',
