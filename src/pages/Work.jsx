@@ -21,6 +21,7 @@ let projects = [
     desc: "A clean, client-facing website built to represent a client's business online and give her a professional home base.",
     stack: ['React', 'Vite'],
     image: '/cocolove.jpg',
+    url: 'https://shopcocolove.com',
   },
 
 
@@ -62,6 +63,16 @@ function Work() {
                   <span key={tech}>{tech}</span>
                 ))}
               </div>
+              {project.url && (
+                <a
+                  className="card-link"
+                  href={project.url}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Visit site →
+                </a>
+              )}
             </div>
             <div className="card-image">
               {project.image.startsWith('/') ? (
