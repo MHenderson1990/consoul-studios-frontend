@@ -68,7 +68,7 @@ function Work() {
                   className="card-link"
                   href={project.url}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   Visit site →
                 </a>
